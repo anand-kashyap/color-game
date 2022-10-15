@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Color game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="colorgame.css" />
+  </head>
+  <body>
+    <div>
+      <h1 class="text-center">The <span id="colorDisplay">RGB</span> Color Game</h1>
+    </div>
+    <div id="stripe">
+      <button id="reset" class="btn btn-default">New Colors</button>
+      <span id="dec"></span>
+      <button id="easy" class="btn btn-primary">Easy</button>
+      <button id="hard" class="btn btn-primary active">Hard</button>
+    </div>
+    <div id="container">
+      <div class="row">
+        <div class="col-md-4 square img-rounded"></div>
+        <div class="col-md-4 square img-rounded"></div>
+        <div class="col-md-4 square img-rounded"></div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 square img-rounded"></div>
+        <div class="col-md-4 square img-rounded"></div>
+        <div class="col-md-4 square img-rounded"></div>
+      </div>
+    </div>
+  </body>
+  <script type="text/javascript" src="colorgame.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</html>
